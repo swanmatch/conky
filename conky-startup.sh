@@ -1,8 +1,10 @@
 sleep 20s
 killall conky
-cd "/home/shirotori/.conky"
-conky -c "/home/shirotori/.conky/.conkyrc" &
-cd "/home/shirotori/.conky/Conky Seamod"
-conky -c "/home/shirotori/.conky/Conky Seamod/conky_seamod" &
-cd "/home/shirotori/.conky/Gotham"
-conky -c "/home/shirotori/.conky/Gotham/Gotham" &
+cd "/home/swanmatch/.conky"
+conky -c "/home/swanmatch/.conky/.conky_clockrc" &
+cd "/home/swanmatch/.conky"
+conky -c "/home/swanmatch/.conky/.conkyrc" &
+cd "/home/swanmatch/.conky/Conky Seamod"
+conky -c "/home/swanmatch/.conky/Conky Seamod/conky_seamod" &
+cd "/home/swanmatch/.conky/Gotham"
+conky -c "/home/swanmatch/.conky/Gotham/Gotham" &
